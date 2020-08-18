@@ -29,3 +29,4 @@
     source $HOME/.config/nvim/plug-config/vim-fold-cycle.vim
     source $HOME/.config/nvim/plug-config/git-gitgutter.vim
     source $HOME/.config/nvim/plug-config/floatterm.vim
+    source $HOME/.config/nvim/plug-config/coc.vim
