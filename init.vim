@@ -10,3 +10,22 @@
 " │░▀░░░▀▀▀░▀▀▀░▀▀▀░▀▀▀░▀░▀░▀▀▀│
 " └────────────────────────────┘
     source $HOME/.config/nvim/vim-plug/plugins.vim
+
+" ┌────────────────────────┐
+" │░▀█▀░█░█░█▀▀░█▄█░█▀▀░█▀▀│
+" │░░█░░█▀█░█▀▀░█░█░█▀▀░▀▀█│
+" │░░▀░░▀░▀░▀▀▀░▀░▀░▀▀▀░▀▀▀│
+" └────────────────────────┘
+    source  $HOME/.config/nvim/themes/airline.vim
+    source  $HOME/.config/nvim/themes/onedark.vim
+" ┌────────────────────────────────────────────┐
+" │░█▀█░█░░░█░█░█▀▀░░░░░█▀▀░█▀█░█▀█░█▀▀░▀█▀░█▀▀│
+" │░█▀▀░█░░░█░█░█░█░▄▄▄░█░░░█░█░█░█░█▀▀░░█░░█░█│
+" │░▀░░░▀▀▀░▀▀▀░▀▀▀░░░░░▀▀▀░▀▀▀░▀░▀░▀░░░▀▀▀░▀▀▀│
+" └────────────────────────────────────────────┘
+    luafile $HOME/.config/nvim/lua/colorizer-config.lua
+    source $HOME/.config/nvim/plug-config/RainbowParentheses.vim
+    source $HOME/.config/nvim/plug-config/any-fold.vim
+    source $HOME/.config/nvim/plug-config/vim-fold-cycle.vim
+    source $HOME/.config/nvim/plug-config/git-gitgutter.vim
+    source $HOME/.config/nvim/plug-config/floatterm.vim

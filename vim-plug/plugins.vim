@@ -33,6 +33,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
         Plug 'mhinz/vim-startify'
         " Fully fledged File explorer inside vim
         Plug 'kevinhwang91/rnvimr'
+        " Different nested bracket colors
+        Plug 'luochen1990/rainbow'       
+        " Fold cycle better for inline foldings
+        Plug 'arecarn/vim-fold-cycle'
+        " Floating terminal
+        Plug 'voldikss/vim-floaterm'
 
     " Language specific plugins
         " All
@@ -41,6 +47,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
         " Html
             " Auto rename ending tags
              Plug 'AndrewRadev/tagalong.vim',{'for':'html'}
+
     " Themes
         " Colorscheme
         Plug 'joshdick/onedark.vim'
