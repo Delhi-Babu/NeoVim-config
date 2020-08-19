@@ -40,6 +40,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
         " Floating terminal
         Plug 'voldikss/vim-floaterm'
 
+    " Fzf
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'junegunn/fzf.vim'
+    Plug 'airblade/vim-rooter'
+
     " Language specific plugins
         " All
             " General syntax support for almost all languages
