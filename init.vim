@@ -30,3 +30,4 @@
     source $HOME/.config/nvim/plug-config/git-gitgutter.vim
     source $HOME/.config/nvim/plug-config/floatterm.vim
     source $HOME/.config/nvim/plug-config/coc.vim
+    source $HOME/.config/nvim/plug-config/rnvimr.vim
