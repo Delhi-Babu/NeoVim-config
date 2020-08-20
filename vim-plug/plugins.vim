@@ -15,38 +15,43 @@ endif
 call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Essential Plugins
-        " Cool status line 
-        Plug 'vim-airline/vim-airline'
-        " Vscode Intellisense
-        Plug 'neoclide/coc.nvim', {'branch': 'release'}
-        " Makes commenting easy
-        Plug 'tpope/vim-commentary'
-        " Folding codes made easy
-        Plug 'pseewald/vim-anyfold'
-        " Live server for vim
-        Plug 'turbio/bracey.vim'
-        " Surround stuff easily
-        Plug 'tpope/vim-surround'
-        " Display the colors
-        Plug 'norcalli/nvim-colorizer.lua'
-        " Startify for project management
-        Plug 'mhinz/vim-startify'
-        " Fully fledged File explorer inside vim
-        Plug 'kevinhwang91/rnvimr'
-        " Different nested bracket colors
-        Plug 'luochen1990/rainbow'       
-        " Fold cycle better for inline foldings
-        Plug 'arecarn/vim-fold-cycle'
-        " Floating terminal
-        Plug 'voldikss/vim-floaterm'
+        " Important
+            " Vscode Intellisense
+            Plug 'neoclide/coc.nvim', {'branch': 'release'}
+            " Startify for project management
+            Plug 'mhinz/vim-startify'
+            " Live server for vim
+            Plug 'turbio/bracey.vim'
+            " Fully fledged File explorer inside vim
+            Plug 'kevinhwang91/rnvimr'
+            " Floating terminal
+            Plug 'voldikss/vim-floaterm'
+        " Makes stuff easy
+            " Makes commenting easy
+            Plug 'tpope/vim-commentary'
+            " Folding codes made easy
+            Plug 'pseewald/vim-anyfold'
+            " Surround stuff easily
+            Plug 'tpope/vim-surround'
+            " Fold cycle better for inline foldings
+            Plug 'arecarn/vim-fold-cycle'
+        " Style
+            " Cool status line
+            Plug 'vim-airline/vim-airline'
+            " Different nested bracket colors
+            Plug 'luochen1990/rainbow'
+            " Display the colors
+            Plug 'norcalli/nvim-colorizer.lua'
 
     " Fzf
-    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-    Plug 'junegunn/fzf.vim'
-    Plug 'airblade/vim-rooter'
+        " These two plugins are recquired
+        Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+        Plug 'junegunn/fzf.vim'
+        " Changes the dir
+        Plug 'airblade/vim-rooter'
 
     " Language specific plugins
-        " All
+        " General
             " General syntax support for almost all languages
             Plug 'sheerun/vim-polyglot'
         " Html
