@@ -23,7 +23,6 @@
 " │░█▀▀░█░░░█░█░█░█░▄▄▄░█░░░█░█░█░█░█▀▀░░█░░█░█│
 " │░▀░░░▀▀▀░▀▀▀░▀▀▀░░░░░▀▀▀░▀▀▀░▀░▀░▀░░░▀▀▀░▀▀▀│
 " └────────────────────────────────────────────┘
-    luafile $HOME/.config/nvim/lua/colorizer-config.lua
     source $HOME/.config/nvim/plug-config/RainbowParentheses.vim
     source $HOME/.config/nvim/plug-config/any-fold.vim
     source $HOME/.config/nvim/plug-config/vim-fold-cycle.vim
@@ -33,3 +32,5 @@
     source $HOME/.config/nvim/plug-config/rnvimr.vim
     source $HOME/.config/nvim/plug-config/vim-commentary.vim
     source $HOME/.config/nvim/plug-config/fzf.vim
+    luafile $HOME/.config/nvim/lua/colorizer-config.lua
+    source $HOME/.config/nvim/plug-config/live-server.vim

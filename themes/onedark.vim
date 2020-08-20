@@ -9,13 +9,14 @@ let g:onedark_terminal_italics = 1
 colorscheme onedark
 
 " Some custom highlights
-hi Normal guifg=#dfdfe0 guibg=#212428
-hi Comment guifg=#6CBA49
+" hi Normal guifg=#dfdfe0 guibg=#212428
+hi Normal guifg=#dfdfe0 guibg=#1E1E1E
+hi Comment guifg=#608B4E
 hi PmenuSel guifg=#ffffff guibg=#0f5bca guisp=NONE gui=NONE cterm=NONE
-hi Pmenu guifg=#B4C3C1
+hi Pmenu guifg=#B4C3C1 guibg=#2D2D30
 hi Folded guibg=#333441 guifg=#ffffff
-" hi ColorColumn ctermbg=0 guibg=#081321
 hi ColorColumn ctermbg=NONE guibg=#C44C4C
+hi CocHighlightText guibg=#2c323c
 
 " Checks if your terminal has 24-bit color support
 if (has("termguicolors"))
