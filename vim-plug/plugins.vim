@@ -26,6 +26,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
             Plug 'kevinhwang91/rnvimr'
             " Floating terminal
             Plug 'voldikss/vim-floaterm'
+            " Color Picker
+            Plug 'DougBeney/pickachu'
         " Makes stuff easy
             " Makes commenting easy
             Plug 'tpope/vim-commentary'
@@ -35,6 +37,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
             Plug 'tpope/vim-surround'
             " Fold cycle better for inline foldings
             Plug 'arecarn/vim-fold-cycle'
+            " Add snippets
+            Plug 'honza/vim-snippets'
         " Style
             " Cool status line
             Plug 'vim-airline/vim-airline'
