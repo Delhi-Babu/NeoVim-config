@@ -74,4 +74,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
         " Indicates the changes made in Git
         Plug 'airblade/vim-gitgutter'
 
+    " Testing phase
+        " Multi language Debugger (Important)
+        Plug 'puremourning/vimspector'
+
 call plug#end()

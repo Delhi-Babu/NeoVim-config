@@ -1,6 +1,6 @@
 function! OpenLiveServer()
  echo 'live server is on'
- " silent !browser-sync start --server --files "*" &
+ silent !browser-sync start --server --files "*" &
  silent !live-server  &
 endfunction
 

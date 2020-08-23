@@ -33,5 +33,14 @@
     source $HOME/.config/nvim/plug-config/vim-commentary.vim
     source $HOME/.config/nvim/plug-config/fzf.vim
     luafile $HOME/.config/nvim/lua/colorizer-config.lua
-    source $HOME/.config/nvim/plug-config/live-server.vim
+    " source $HOME/.config/nvim/plug-config/live-server.vim
     source $HOME/.config/nvim/plug-config/coc-extensions-configs/coc-snippets.vim
+    source $HOME/.config/nvim/plug-config/bracey.vim
+
+" ┌────────────────────────────┐
+" │░▀█▀░█▀▀░█▀▀░▀█▀░▀█▀░█▀█░█▀▀│
+" │░░█░░█▀▀░▀▀█░░█░░░█░░█░█░█░█│
+" │░░▀░░▀▀▀░▀▀▀░░▀░░▀▀▀░▀░▀░▀▀▀│
+" └────────────────────────────┘
+    " source $HOME/.config/nvim/plug-config/vimspector.vim
+
