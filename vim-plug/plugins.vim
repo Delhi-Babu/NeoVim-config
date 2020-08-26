@@ -28,6 +28,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
             Plug 'voldikss/vim-floaterm'
             " Color Picker
             Plug 'DougBeney/pickachu'
+            " Markdown preview
+            Plug 'oknozor/illumination', { 'dir': '~/.illumination', 'do': '.install.sh' }
         " Makes stuff easy
             " Makes commenting easy
             Plug 'tpope/vim-commentary'

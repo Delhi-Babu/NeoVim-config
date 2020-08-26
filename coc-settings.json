@@ -79,6 +79,6 @@
     "v": "open:vsplit"
   },
   //I dont need this because I have colorizer
-  //"coc.preferences.colorSupport": false
+  "coc.preferences.colorSupport": false,
   "highlight.colors.enable": false
 }
