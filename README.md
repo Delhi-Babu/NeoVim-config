@@ -1,5 +1,5 @@
-# NeoVim-config
-This is my neat (NEO)vim config
+# Black Pearl (NeoVim-config)
+This is my neat NEOVim config
 
 ## Optional Dependencies
 * ranger
