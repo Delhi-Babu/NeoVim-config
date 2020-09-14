@@ -78,7 +78,7 @@
     "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
   },
-  //I dont need this because I have colorizer
-  "coc.preferences.colorSupport": false,
+  //I don't need this because I have colorizer
   "highlight.colors.enable": false
+  //  "suggest.floatEnable": false
 }

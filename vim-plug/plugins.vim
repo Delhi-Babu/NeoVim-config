@@ -21,7 +21,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
             " Startify for project management
             Plug 'mhinz/vim-startify'
             " Live server for vim
-            Plug 'turbio/bracey.vim'
+            " Plug 'turbio/bracey.vim'
+            Plug 'DONofDESTROY/bracey.vim'
             " Fully fledged File explorer inside vim
             Plug 'kevinhwang91/rnvimr'
             " Floating terminal
