@@ -79,6 +79,7 @@
     "v": "open:vsplit"
   },
   //I don't need this because I have colorizer
-  "highlight.colors.enable": false
+  "highlight.colors.enable": false,
+  "clangd.path": "/home/donofdestroy/.config/coc/extensions/coc-clangd-data/install/10.0.0/clangd_10.0.0/bin/clangd"
   //  "suggest.floatEnable": false
 }

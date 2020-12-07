@@ -22,3 +22,6 @@ set background=dark                                     " Tell vim what the back
 set expandtab                                           " Converts tabs to spaces
 set cursorline                                          " Creates a line on the cursor line
 set updatetime=50                                       " Makes the changes to be faster
+" set guifont=JetBrains\ Mono\ Bold\ Italic\ Nerd\ Font\ Complete:h13:w6.4
+" set guifont=sans:h13:w6.4
+" set guifont=Hack\ Nerd\ Font\ Mono

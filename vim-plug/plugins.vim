@@ -31,6 +31,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
             Plug 'DougBeney/pickachu'
             " Markdown preview
             Plug 'oknozor/illumination', { 'dir': '~/.illumination', 'do': '.install.sh' }
+            Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': ':UpdateRemotePlugins'}
         " Makes stuff easy
             " Makes commenting easy
             Plug 'tpope/vim-commentary'
@@ -80,5 +81,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Testing phase
         " Multi language Debugger (Important)
         Plug 'puremourning/vimspector'
+        " New syntax highlighting (working only for nightly)
+        " Plug 'christianchiarulli/nvcode-color-schemes.vim'
+        Plug 'nvim-treesitter/nvim-treesitter'
 
 call plug#end()
