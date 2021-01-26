@@ -20,7 +20,7 @@ hi CocHighlightText guibg=#2c323c
 " hi Normal guibg=#1F2125 guifg=#dfdfe0
 hi Normal guibg=#1D1F23 guifg=#dfdfe0
 hi Pmenu guibg=#2D2D36 guifg=White
-
+highlight Terminal guibg=Black
 
 
 " Checks if your terminal has 24-bit color support

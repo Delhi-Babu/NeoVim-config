@@ -75,6 +75,8 @@
     source $HOME/.config/nvim/plug-config/vim-commentary.vim
     source $HOME/.config/nvim/plug-config/fzf.vim
     luafile $HOME/.config/nvim/lua/colorizer-config.lua
+    luafile $HOME/.config/nvim/lua/statusline.lua
+    luafile $HOME/.config/nvim/lua/floatterm.lua
     source $HOME/.config/nvim/plug-config/bracey.vim
 
 " ┌────────────────────────────┐
@@ -86,6 +88,7 @@
 
 " This stuff is for rofi configuration
 au BufNewFile,BufRead /*.rasi setf css
+    source $HOME/.config/nvim/lua/lua-tree.vim
 
 " configure treesitter
 lua << EOF
@@ -111,3 +114,22 @@ EOF
 "     set termguicolors
 "     hi LineNr ctermbg=NONE guibg=NONE
 " endif
+
+
+" Background colors for terminal windows
+" hi ActiveTerminal guibg=#333333
+
+" " Call method on window enter
+" augroup WindowManagement
+"   autocmd!
+"   " autocmd WinEnter * call Handle_Win_Enter()
+"   autocmd TermOpen * call Handle_Win_Enter()
+" augroup END
+
+" " Change highlight group of terminal window
+" function! Handle_Win_Enter()
+"   if &buftype ==# 'terminal'
+"     setlocal winhighlight=Normal:ActiveTerminal
+"   endif
+" endfunction
+" colorscheme blue-moon

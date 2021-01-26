@@ -98,5 +98,5 @@ command! -nargs=0 OR   :call     CocAction('runCommand', 'editor.action.organize
 " │░█▀▀░▄▀▄░░█░░█▀▀░█░█░▀▀█░░█░░█░█░█░█░▄▄▄░█░░░█░█░█░█░█▀▀░░█░░█░█│
 " │░▀▀▀░▀░▀░░▀░░▀▀▀░▀░▀░▀▀▀░▀▀▀░▀▀▀░▀░▀░░░░░▀▀▀░▀▀▀░▀░▀░▀░░░▀▀▀░▀▀▀│
 " └────────────────────────────────────────────────────────────────┘
-    source $HOME/.config/nvim/plug-config/coc-extensions-configs/coc-explorer.vim
+    " source $HOME/.config/nvim/plug-config/coc-extensions-configs/coc-explorer.vim
     source $HOME/.config/nvim/plug-config/coc-extensions-configs/coc-snippets.vim

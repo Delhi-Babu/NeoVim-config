@@ -26,12 +26,14 @@ call plug#begin('~/.config/nvim/autoload/plugged')
             " Fully fledged File explorer inside vim
             Plug 'kevinhwang91/rnvimr'
             " Floating terminal
-            Plug 'voldikss/vim-floaterm'
+            " Plug 'voldikss/vim-floaterm'
+            Plug 'numtostr/FTerm.nvim'
             " Color Picker
             Plug 'DougBeney/pickachu'
-            " Markdown preview
-            Plug 'oknozor/illumination', { 'dir': '~/.illumination', 'do': '.install.sh' }
-            Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': ':UpdateRemotePlugins'}
+            " Fast file explorer written in lua
+            Plug 'kyazdani42/nvim-tree.lua'
+            " Provides cool tabline
+            Plug 'romgrk/barbar.nvim'
         " Makes stuff easy
             " Makes commenting easy
             Plug 'tpope/vim-commentary'
@@ -45,7 +47,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
             Plug 'honza/vim-snippets'
         " Style
             " Cool status line
-            Plug 'vim-airline/vim-airline'
+            Plug 'glepnir/galaxyline.nvim'
+            " If you want icons use one of these:
+            Plug 'kyazdani42/nvim-web-devicons' " lua
             " Different nested bracket colors
             Plug 'luochen1990/rainbow'
             " Display the colors
@@ -84,5 +88,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
         " New syntax highlighting (working only for nightly)
         " Plug 'christianchiarulli/nvcode-color-schemes.vim'
         Plug 'nvim-treesitter/nvim-treesitter'
+        " Markdown
+        Plug 'oknozor/illumination', { 'dir': '~/.illumination', 'do': '.install.sh' }
+        " Theme with terminal color
+        Plug 'kyazdani42/blue-moon'
 
 call plug#end()
