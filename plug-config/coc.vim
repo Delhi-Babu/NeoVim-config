@@ -4,7 +4,6 @@ let g:coc_global_extensions = [
   \ 'coc-sh',
   \ 'coc-lists',
   \ 'coc-emmet',
-  \ 'coc-pairs',
   \ 'coc-tsserver',
   \ 'coc-html',
   \ 'coc-css',
@@ -27,6 +26,7 @@ let g:coc_global_extensions = [
   \ 'coc-lua',
   \ ]
 
+  " \ 'coc-pairs',
 
 " Use tab for trigger completion with characters ahead and navigate.
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by

@@ -17,7 +17,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Essential Plugins
         " Important
             " Vscode Intellisense
-            Plug 'neoclide/coc.nvim', {'branch': 'release'}
+            " Plug 'neoclide/coc.nvim', {'branch': 'release'}
             " Startify for project management
             Plug 'mhinz/vim-startify'
             " Live server for vim
@@ -87,10 +87,33 @@ call plug#begin('~/.config/nvim/autoload/plugged')
         Plug 'puremourning/vimspector'
         " New syntax highlighting (working only for nightly)
         " Plug 'christianchiarulli/nvcode-color-schemes.vim'
-        Plug 'nvim-treesitter/nvim-treesitter'
+        Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} 
         " Markdown
         Plug 'oknozor/illumination', { 'dir': '~/.illumination', 'do': '.install.sh' }
         " Theme with terminal color
         Plug 'kyazdani42/blue-moon'
+        
+        " Arduinooooooooo
+        Plug 'stevearc/vim-arduino'
+        Plug 'windwp/nvim-autopairs'
 
+        " Built-in LSP
+        Plug 'neovim/nvim-lspconfig'
+        Plug 'nvim-lua/completion-nvim'
+        " Plug 'hrsh7th/nvim-compe'
+        Plug 'prabirshrestha/vim-lsp'
+        Plug 'mattn/emmet-vim'
+        Plug 'lukas-reineke/indent-blankline.nvim', {'branch':'lua'}
+        Plug 'wfxr/minimap.vim'
+        Plug 'onsails/lspkind-nvim'
+
+
+        " This is telescope
+        Plug 'nvim-lua/popup.nvim'
+        Plug 'nvim-lua/plenary.nvim'
+        Plug 'nvim-telescope/telescope.nvim'
 call plug#end()
+
+let g:minimap_width = 12
+let g:minimap_auto_start = 1
+
