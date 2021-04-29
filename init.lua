@@ -59,4 +59,3 @@ require('nvim-lsp.efm-general-ls')
 require("indent") ]]
 require("nvim-telescope")
 require("embeded-languages")
--- vim.cmd("set signcolumn=yes:1")

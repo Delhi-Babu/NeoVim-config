@@ -32,8 +32,5 @@ vim.cmd('set nowritebackup')
 vim.cmd('set noswapfile')
 
 vim.cmd("let g:completion_trigger_character = [';']")
--- vim.wo.signcolumn = 'number'
+vim.wo.signcolumn="auto:1"
 
--- vim.o.guifont=JetBrains\ Mono\ Bold\ Italic\ Nerd\ Font\ Complete:h13:w6.4
--- vim.o.guifont=sans:h13:w6.4
--- vim.o.guifont=Hack\ Nerd\ Font\ Mono
