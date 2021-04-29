@@ -1,6 +1,8 @@
 vim.cmd('colorscheme ' .. O.colorscheme)
 
--- vim.cmd('highlight Normal guibg=#1D1F23 guifg=#dfdfe0')
+
+
+vim.cmd('highlight Normal guibg=#1D1F23 guifg=#dfdfe0')
 
 vim.api.nvim_exec([[
 hi Comment guifg=#608B4E
@@ -11,5 +13,11 @@ highlight ColorColumn ctermbg=NONE guibg=#C44C4C
 hi Normal guibg=#1F2125 guifg=#dfdfe0
 highlight Pmenu guibg=#2D2D36 guifg=White
 highlight Terminal guibg=Black
+highlight signcolumn guibg=#1F2125 
+highlight Comment cterm=italic gui=italic
 ]],false)
-
+vim.cmd('highlight red guifg=#BE5046')
+vim.cmd('highlight yellow guifg =#E5C07B')
+vim.cmd('highlight green guifg=#98c379')
+vim.cmd('highlight blue guifg=#56b6c2')
+vim.cmd('highlight purple guifg=#c678dd')

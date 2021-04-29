@@ -1,6 +1,7 @@
-O = {
+						O = {
     auto_close_tree = 0,
     auto_complete = true,
+    -- colorscheme = 'aurora',
     colorscheme = 'zephyr',
     hidden_files = true,
     wrap_lines = true,
@@ -40,8 +41,8 @@ O = {
         -- @usage can be 'eslint'
         linter = '',
         -- @usage can be 'prettier'
-        formatter = '',
-        autoformat = false,
+        formatter = 'prettier',
+        autoformat = true,
         diagnostics = {virtual_text = true, signs = true, underline = true}
     },
     json = {

@@ -26,6 +26,14 @@ vim.wo.cursorline = true                                          --Creates a li
 vim.o.updatetime=50                                       --Makes the changes to be faster
 vim.o.termguicolors = true                                --Set truecolors
 vim.o.pumheight = 10 -- Makes popup menu smaller
+-- vim.cmd('set backupcopy=yes')
+vim.cmd('set nobackup')
+vim.cmd('set nowritebackup')
+vim.cmd('set noswapfile')
+
+vim.cmd("let g:completion_trigger_character = [';']")
+-- vim.wo.signcolumn = 'number'
+
 -- vim.o.guifont=JetBrains\ Mono\ Bold\ Italic\ Nerd\ Font\ Complete:h13:w6.4
 -- vim.o.guifont=sans:h13:w6.4
 -- vim.o.guifont=Hack\ Nerd\ Font\ Mono
