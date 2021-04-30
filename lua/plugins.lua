@@ -51,9 +51,7 @@ return require("packer").startup(
     use "b3nj5m1n/kommentary"
     use "JoosepAlviste/nvim-ts-context-commentstring"
     use "blackCauldron7/surround.nvim"
-    -- use "terrortylor/nvim-comment"
     use "windwp/nvim-ts-autotag"
     use "lewis6991/gitsigns.nvim"
-	use "folke/tokyonight.nvim"
   end
 )
