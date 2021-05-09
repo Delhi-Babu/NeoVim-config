@@ -40,8 +40,8 @@ vim.api.nvim_set_keymap('n', '<Leader>t', ':Telescope<CR>',
 -- vim.api.nvim_set_keymap('n','gp','%!prettier --stdin-filepath %<CR>',{noremap = true, silent = true})
 vim.cmd('nnoremap <leader>f :Format<CR>')
 
-vim.cmd("imap <expr> <CR>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<CR>'")
-vim.cmd("smap <expr> <CR>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<CR>'")
+vim.cmd("imap <expr> <CR>   vsnip#available(1)  ? '<Plug>(vsnip-expand)' : '<CR>'")
+vim.cmd("smap <expr> <CR>   vsnip#available(1)  ? '<Plug>(vsnip-expand)' : '<CR>'")
 
 
 vim.cmd("imap <expr> <Tab>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'")

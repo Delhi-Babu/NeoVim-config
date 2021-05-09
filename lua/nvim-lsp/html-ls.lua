@@ -6,7 +6,12 @@ require "lspconfig".html.setup {
     "node",
     DATA_PATH .. "/lspinstall/html/vscode-html/html-language-features/server/dist/node/htmlServerMain.js",
     "--stdio"
-  },filetypes = {'html','css','javascript','javascriptreact','javascript.jsx'},
+  },
+  filetypes = {"html", "javascript", "javascriptreact", "javascript.jsx", "css", "scss"},
+  embeddedLanguages = {
+    css = true,
+    javascript = true
+  },
   on_attach = require "nvim-lsp".common_on_attach,
   capabilities = capabilities
 }

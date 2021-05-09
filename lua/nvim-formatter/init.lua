@@ -48,6 +48,45 @@ require("formatter").setup(
           }
         end
       },
+      scss = {
+        -- prettier
+        function()
+          return {
+            exe = "prettier",
+            args = {
+              "--stdin-filepath, --single-quote --trailing-comma es5 --arrow-parens avoid --jsx-bracket-same-line --jsx-single-quote",
+              vim.api.nvim_buf_get_name(0)
+            },
+            stdin = true
+          }
+        end
+      },
+      sass = {
+        -- prettier
+        function()
+          return {
+            exe = "prettier",
+            args = {
+              "--stdin-filepath, --single-quote --trailing-comma es5 --arrow-parens avoid --jsx-bracket-same-line --jsx-single-quote",
+              vim.api.nvim_buf_get_name(0)
+            },
+            stdin = true
+          }
+        end
+      },
+      less = {
+        -- prettier
+        function()
+          return {
+            exe = "prettier",
+            args = {
+              "--stdin-filepath, --single-quote --trailing-comma es5 --arrow-parens avoid --jsx-bracket-same-line --jsx-single-quote",
+              vim.api.nvim_buf_get_name(0)
+            },
+            stdin = true
+          }
+        end
+      },
       json = {
         -- prettier
         function()
@@ -78,4 +117,7 @@ vim.cmd("autocmd BufWritePre *.jsx Format")
 vim.cmd("autocmd BufWritePre *.lua Format")
 vim.cmd("autocmd BufWritePre *.html Format")
 vim.cmd("autocmd BufWritePre *.css Format")
+vim.cmd("autocmd BufWritePre *.scss Format")
+vim.cmd("autocmd BufWritePre *.sass Format")
+vim.cmd("autocmd BufWritePre *.less Format")
 vim.cmd("autocmd BufWritePre *.json Format")

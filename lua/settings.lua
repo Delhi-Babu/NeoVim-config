@@ -34,3 +34,9 @@ vim.cmd('set noswapfile')
 vim.cmd("let g:completion_trigger_character = [';']")
 vim.wo.signcolumn="auto:1"
 
+
+--the add helper just does string concatenation more or less
+--vim.o.spellsuggest = add(12, vim.o.spellsuggest)
+vim.o.spelloptions = "camel"
+vim.o.spellcapcheck = "" -- don't check for capital letters at start of sentence
+--vim.o.complete = add("kspell", vim.o.complete)

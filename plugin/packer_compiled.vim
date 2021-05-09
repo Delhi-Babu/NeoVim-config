@@ -71,6 +71,10 @@ end
 time("try_loadstring definition", false)
 time("Defining packer_plugins", true)
 _G.packer_plugins = {
+  aurora = {
+    loaded = true,
+    path = "/home/donofdestroy/.local/share/nvim/site/pack/packer/start/aurora"
+  },
   ["barbar.nvim"] = {
     loaded = true,
     path = "/home/donofdestroy/.local/share/nvim/site/pack/packer/start/barbar.nvim"
@@ -103,9 +107,17 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/donofdestroy/.local/share/nvim/site/pack/packer/start/kommentary"
   },
+  ["kosmikoa.nvim"] = {
+    loaded = true,
+    path = "/home/donofdestroy/.local/share/nvim/site/pack/packer/start/kosmikoa.nvim"
+  },
   ["lspsaga.nvim"] = {
     loaded = true,
     path = "/home/donofdestroy/.local/share/nvim/site/pack/packer/start/lspsaga.nvim"
+  },
+  ["material.nvim"] = {
+    loaded = true,
+    path = "/home/donofdestroy/.local/share/nvim/site/pack/packer/start/material.nvim"
   },
   ["monokai.nvim"] = {
     loaded = true,
@@ -158,6 +170,10 @@ _G.packer_plugins = {
   ["nvim-web-devicons"] = {
     loaded = true,
     path = "/home/donofdestroy/.local/share/nvim/site/pack/packer/start/nvim-web-devicons"
+  },
+  ["omni.vim"] = {
+    loaded = true,
+    path = "/home/donofdestroy/.local/share/nvim/site/pack/packer/start/omni.vim"
   },
   ["one-nvim"] = {
     loaded = true,

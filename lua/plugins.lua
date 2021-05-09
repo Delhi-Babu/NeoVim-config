@@ -52,6 +52,18 @@ return require("packer").startup(
     use "JoosepAlviste/nvim-ts-context-commentstring"
     use "blackCauldron7/surround.nvim"
     use "windwp/nvim-ts-autotag"
+    --[[ use {
+      "lewis6991/spellsitter.nvim",
+      config = function()
+        require("spellsitter").setup()
+      end
+    } ]]
     use "lewis6991/gitsigns.nvim"
+    use "marko-cerovac/material.nvim"
+    use "yonlu/omni.vim"
+    use "ray-x/aurora"
+    use "novakne/kosmikoa.nvim"
+    -- use "Th3Whit3Wolf/one-nvim"
+    use "romgrk/doom-one.vim"
   end
 )
